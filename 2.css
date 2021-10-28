@@ -72,6 +72,7 @@ header a:hover
     font-size: 0.9em;
     margin-top: 25px;
     margin-bottom: 15px; 
+    padding-left: 10px;
 }
 .localisation
 {
@@ -169,12 +170,12 @@ header a:hover
 {
     display: flex;
     height: 30px;
-    width: 200px;
     justify-content: center;
     align-items: center;
     margin-left: 10px;
     border: 2px solid #F2F2F2;
     border-radius:25px 25px ;
+    padding-right: 15px;        
 }
 .eco:hover,.fam:hover,.ro:hover,.ani:hover
 {
@@ -544,12 +545,19 @@ header a:hover
 
 /*<<<<< footer >>>>>*/
 
+footer 
+{
+    margin: -20px;
+ }
+    
+
 .fin 
 {
     margin-top: 30px;
     padding-top: 20px;
     margin-bottom: 20px;
     width: 100%;
+    padding-bottom:20px;
     background-color: #F2F2F2;
 }
 
@@ -600,152 +608,84 @@ header a:hover
 
 /*<<<<< Responsive all screen >>>>>*/
 
-@media screen and (max-width:1183px)
-{ 
-    #section1
-    {
-        flex-wrap: wrap;
-    }
-    .a
-    {
-        margin-right:0px
-    }
+@media screen and (min-width:900px) 
+{
     .a,.b,.c,.d,.e,.f
     {
-        margin-left: 30px;
+        margin-left: 5px;
+        margin-right: 2px;
+        width: 31%;
+        margin-top: 10px;
     }
     .y,.z
     {
-        margin-left: 140px;
-    }
-    
-}
-@media screen and (max-width:1166px)
-{
-    .a
-    {
-        margin-right:0px
-    }
-    .a,.b,.c,.d,.e,.f
-    {
-        width: 40%;
-        margin-top: 10px;
-    }
-    #section1
-    {
-        flex-wrap: wrap;
-    }   
-}
-
-@media screen and (max-width:989px) 
-{
-    .a,.b,.c,.d,.e,.f
-    {
-        width: 40%;
-        margin-top: 10px;
-        flex-wrap: wrap;
-        margin-left: 10px;
-    }
-    .filters
-    {
-        display: inline-block;
-        flex-wrap: wrap;
-        margin-top: 10px;
-    }    
-}
-
-@media screen and (max-width:949px)
-{
-    .a,.b,.c,.d,.e,.f
-    {
-        width: 40%;
-        margin-top: 20px;
-        margin-left: 10px;
-        flex-wrap: wrap;
-    }
-}
-@media screen and (max-width:880px)
-{
-    .filters
-    {
-        flex-wrap: wrap;
-
-    }
-}
-@media screen and (max-width:810px)
-{
-    .introsection2 span
-    {
-        margin-left:100px;
-    }
-    .filtres
-    {
-        flex-wrap: wrap;
-    }
-    .info
-    {
-        width: 100%;
-        display: inline-block;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        flex-wrap: wrap;
-    }
-}
-@media screen and (max-width:807px),(min-width:768px)
-{
-    .introsection2 span
-    {
-        margin-left:105px;
+        margin-left: 120px;
     }
     .introsection1
     {
-        width: 50%; 
-    }
-    .y,.z
-    {
-        margin-left:45px ;
-    }
-    .info
-    {
-        width: 100%;
-    }
-    .afficher
-    {
-        width: 30%;
-    }
-     
-}
-@media screen and (max-width:707px)
-{
-    .y,.z
-    {
-        margin-left: 50px;
-    } 
-    .afficher
-    {
-        width: 30%;
+        width: 60%;
     }
     .introsection2 span
     {
-        margin-left:140px;
+        margin-left: 130px;
     }
     
 }
-@media screen and (max-width:720px)
+@media screen and (min-width:683px) and (max-width:912px) 
 {
     .y,.z
     {
         margin-left: 40px;
     }
     
-
-}
-@media screen and (max-width:710px)
-{
-    .filtres
+    .a,.b,.c,.d,.e,.f
     {
-        flex-wrap: wrap;
+        width: 45%;
+        margin-left: 5px;
+        margin-right: 0px;
+        margin-top: 10px;
     }
+    .matin,.aucoeur,.bleu
+    {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        margin-left: 5px;
+        margin-right: 10px;
+
+    }    
+    #section1
+    {
+        width: 80%;
+        padding-left: 20px;
+    }
+    #section2
+    
+    { 
+        margin-top: 30px;
+        margin-left: 20px;
+        padding-right: 5px;
+    }  
+    
+    .introsection1
+    {
+        width: 60%;
+    }
+    .introsection2 span
+    {
+        margin-left: 40px;
+    }
+    .filters
+    {
+        display: inline-block;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+  
+}
+
+@media screen and (max-width:700px)  /* <<< Responsive Mobile >>> */
+{
     .conteneur
     {
         flex-direction: column-reverse;
@@ -753,22 +693,20 @@ header a:hover
     }
     #section1
     {
-        background-color: white;
-        border: none;
-        width: 100%;
-        justify-content: space-around;
+        padding-left: 0;
+        background-color:transparent ;
     }
-    
-    header ul
+    .filters
     {
-        margin-right: 0px;
-    }
-}
-@media screen and (max-width:640px)  /* <<< Responsive Mobile >>> */
-{
+        flex-wrap: wrap;
+    }    
     .fin
     {
         display: grid;
+    }
+    .y,.z
+    {
+        margin-left: 40px;
     }
     
     #section3
@@ -778,8 +716,7 @@ header a:hover
     .colonne1,.colonne2,.colonne3,.colonne4
     {
         display:inline ;
-        width: 50%;
-        margin: 20px;
+        margin-top: 10px;
     }
     .g,.h,.i,.j,.k,.l
     {
@@ -788,6 +725,8 @@ header a:hover
         align-items: center;
         align-content: space-between;
         margin: 20px;
+        margin-left: 0;
+        margin-right: 0;
     }
     .g img,.j img
     {
@@ -800,10 +739,12 @@ header a:hover
         margin-top: 20px;
         margin-bottom: 20px;   
     }
+
     .introsection1
     {
-        width: 100%;
+        width: 90%;
         display: flex;
+        left: 0;
     }
     #section1
     {
@@ -815,6 +756,8 @@ header a:hover
     {
         width: 90%;
         margin: auto;
+        margin-left: 0;
+        margin-right: 0;
         margin-top: inherit;
     }
     .introsection2
@@ -824,7 +767,7 @@ header a:hover
     }
     .introsection2 span
     {
-        margin-left: auto;
+        margin-left: 330px;
     }
     #section2
     {
@@ -898,7 +841,7 @@ header a:hover
         right: 0px;
     }
 }
-@media screen and (max-width:500px) 
+@media screen and (max-width:600px) 
 {
     body
     {
@@ -928,6 +871,7 @@ header a:hover
     {
         display: flex;
         margin-bottom: 70px;
+        justify-content: center;
     }
     .v
     {
@@ -950,6 +894,10 @@ header a:hover
         padding-left: 0;
         font-size: 1em;
         border-bottom: 2px solid #F2F2F2;
+    }
+    .y,.z
+    {
+        margin-left: 40px;
     }
     .inscription
     {
@@ -978,11 +926,12 @@ header a:hover
     #section2
     {
         margin:auto;
-        padding-left: 15px;  
+        padding-left: 10px;
+        padding-bottom: 10px;  
     }
     .introsection2 span
     {
-        margin-left: 60px;
+        margin-left: 150px;
     }
     .mat,.au,.bl
     {
@@ -997,4 +946,3 @@ header a:hover
         margin-left: 0px;       
     }    
 }
-
