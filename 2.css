@@ -548,9 +548,8 @@ header a:hover
 footer 
 {
     margin: -20px;
- }
+}
     
-
 .fin 
 {
     margin-top: 30px;
@@ -619,7 +618,7 @@ footer
     }
     .y,.z
     {
-        margin-left: 120px;
+        margin-left: 150px;
     }
     .introsection1
     {
@@ -635,7 +634,7 @@ footer
 {
     .y,.z
     {
-        margin-left: 40px;
+        margin-left: 60px;
     }
     
     .a,.b,.c,.d,.e,.f
