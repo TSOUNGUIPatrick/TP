@@ -19,6 +19,7 @@ body
     {
         width: 20%;
         top:0;  
+        margin-left: 20px;
     }
     .inscription
     {
@@ -58,12 +59,14 @@ header a:hover
 }
 .accroche
 {
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-left: 10px;
 }
 
 .accroche1
 {
     font-size: 0.8em;
+    margin-left: 10px;
 }
 .selecteur 
 {
@@ -547,7 +550,7 @@ header a:hover
 
 footer 
 {
-    margin: -20px;
+    margin-bottom: 20px;
 }
     
 .fin 
@@ -850,7 +853,7 @@ footer
     {
         display: flex;
         height: 50px;
-        margin-top: 20px;
+        margin-top: 50px;
         align-items: flex-end;
     }
     .accroche1
