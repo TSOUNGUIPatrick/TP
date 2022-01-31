@@ -339,7 +339,7 @@ header a:hover
     margin-left: 20px;
     margin-bottom: 20px;
     width: 20%;
-    height: 20px;
+    height: 40px;
     font-size: 0.9em;
 }
 .a:hover,.b:hover,.c:hover,.d:hover,.e:hover,.f:hover,.g:hover,.h:hover,.i:hover,.j:hover,.k:hover,.l:hover
@@ -852,7 +852,7 @@ footer
     .accroche
     {
         display: flex;
-        height: 50px;
+        height: 70px;
         margin-top: 50px;
         align-items: flex-end;
     }
@@ -874,6 +874,11 @@ footer
         display: flex;
         margin-bottom: 70px;
         justify-content: center;
+    }
+    .afficher
+    {
+        margin-left: 0;
+        width: 22%;
     }
     .v
     {
