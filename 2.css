@@ -128,6 +128,7 @@ header a:hover
 .filters
 {
     display: flex;
+    margin-top: 25px;
 }
 .titrefiltre
 {
