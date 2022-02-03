@@ -10,7 +10,7 @@ img
 }
 body
     {
-        font-family:Raleway, Arial,serif;
+        font-family:'Raleway', Arial,serif;
         font-size: 1em;
         margin: 20px; 
     }
@@ -342,6 +342,7 @@ header a:hover
     width: 20%;
     height: 40px;
     font-size: 0.9em;
+    white-space: nowrap;
 }
 .a:hover,.b:hover,.c:hover,.d:hover,.e:hover,.f:hover,.g:hover,.h:hover,.i:hover,.j:hover,.k:hover,.l:hover
 {
